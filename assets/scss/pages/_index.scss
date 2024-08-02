@@ -1,7 +1,7 @@
 // sec1 開始
 .home-sec1{
   height: calc(100vh - 80px);
-  background-image: url(/assets/images/home-header.png);
+  background-image: url(../../../assets/images/home-header.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -25,7 +25,7 @@
 }
 @media (max-width:767px){
   .home-sec1{
-    background-image: url(/assets/images/home-header-sm.png);
+    background-image: url(../../../assets/images/home-header-sm.png);
     height: calc(100vh - 176px);
   }
     .home-sec1 .banner-title{
