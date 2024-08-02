@@ -1,0 +1,43 @@
+input {
+    background-color: inherit;
+    border: 1px solid #000;
+    height: 36px;
+}
+::placeholder{
+    font-size: 16px;
+    color: rgba($color: #000000, $alpha: .2);
+    padding-left: 12px;
+}
+textarea::placeholder {
+    padding-left: 12px;
+    padding-top: 6px;
+}
+textarea{
+    background-color: inherit;
+    height: 136px;
+    resize: none;
+}
+input[type='checkbox']{
+    width: 24px;
+    height: 24px;
+    border: 2px solid #000;
+    border-radius: 3px;
+}
+input[type='submit']{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    font-weight: 700;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+input[type='submit']:hover {
+    background-color: var(--secondary-color);
+    
+}
+select{
+    width: 304px;
+    height: 38px;
+    font-size: 18px;
+    border: 1px solid #CED4DA;
+}

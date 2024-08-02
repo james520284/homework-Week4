@@ -1,0 +1,31 @@
+// 插件
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+// base 
+@import '../../assets/scss/base/variable.scss';
+@import '../../assets/scss/base/reset.scss';
+@import '../../assets/scss/base/component.scss';
+@import '../../assets/scss/base/utilities.scss';
+
+// layout
+@import '../../assets/scss/layout/header';
+@import '../../assets/scss/layout/footer.scss';
+
+// 首頁 
+@import '../../assets/scss/pages/index.scss';
+
+// 商品列表
+@import '../../assets/scss/pages/product1.scss';
+@import '../../assets/scss/pages/product2.scss';
+
+// 門市列表
+@import '../../assets/scss/pages/location.scss';
+@import '../../assets/scss/pages/store.scss';
+
+// 部落格
+@import '../../assets/scss/pages/blog.scss';
+@import '../../assets/scss/pages/article.scss';
+
+// Q&A
+@import '../../assets/scss/pages/support.scss';

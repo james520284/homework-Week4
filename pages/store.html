@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>James眼鏡電商</title>
+</head>
+<body>
+    <%- include('./layout/header'); -%>
+
+    <main class="store-main">
+        <!-- sec1開始 -->
+        <section class="store-sec1">
+            <div class="container">
+                <h2 class="h2 mb-32">門市據點</h2>
+                <form action="" class="form-list">
+                    <div class="form-items">
+                        <label for="area-select">選擇分店</label>
+                        <select name="area" id="area-select">
+                            <option value="台北中山旗艦店">台北中山旗艦店</option>
+                            <option value="台北綠園店">台北綠園店</option>
+                        </select>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <!-- sec1結束 -->
+
+        <!-- sec2開始 -->
+        <section class="store-sec2 mb-80">
+            <div class="container">
+                <div class="store-content d-flex">
+                    <div class="store-items info-side">
+                        <div class="store-card">
+                            <div class="card-wrap">
+                                <picture class="card-head">
+                                    <source srcset="../assets/images/store-1.png" media="(max-width:992px)">
+                                    <img src="../assets/images/storepage-1.png" alt="store1">
+                                </picture>
+                            </div>
+                            <div class="card-wrap">
+                                <div class="card-body">
+                                    <h4 class="h4">台北中山旗艦店</h4>
+                                    <ul class="store-info-list ">
+                                        <li class="store-info-items d-flex">
+                                            <span class="material-symbols-outlined">call</span>
+                                            <a href="tel:+2-000-1234">電話：(02)000-1234</a>
+                                        </li>
+                                        <li class="store-info-items d-flex">
+                                            <span class="material-symbols-outlined">schedule</span>
+                                            <p>營業時間：10:00-21:00</p>
+                                        </li>
+                                        <li class="store-info-items d-flex">
+                                            <span class="material-symbols-outlined">location_on</span>
+                                            <p>地址：台北市中山區南京東路25巷2-1號</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="store-items map-side">
+                        <div class="store-map">
+                            <a href="#"><img src="../assets/images/store-map@2x.png" alt="store-map">
+                        </div></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- sec2結束 -->
+    </main>
+
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+</body>
+</html>

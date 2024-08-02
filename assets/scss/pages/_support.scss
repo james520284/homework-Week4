@@ -1,0 +1,37 @@
+// sec1開始
+.support-sec1{
+    margin-top: 96px;
+    margin-bottom: 80px;
+}
+.support-sec1 h2 {
+    border-left: 8px solid var(--primary-color);
+    padding-left: 16px;
+    
+}
+.support-sec1 .subtitle{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.support-sec1 .QA-list{
+    width: 60%;
+}
+.support-sec1 .question{
+    font-size: 20px;
+    font-weight: 700;
+}
+@media (max-width:992px){
+    .support-sec1 .QA-list {
+        width: 100%;
+    }
+}
+@media (max-width:767px) {
+    .support-sec1 h2 {
+        font-size: 24px;
+        margin-bottom: 24px;
+    }
+    .support-sec1 {
+        margin-top: 40px;
+        margin-bottom: 64px;
+    }
+}

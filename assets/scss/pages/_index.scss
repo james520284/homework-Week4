@@ -1,0 +1,218 @@
+// sec1 開始
+.home-sec1{
+  height: calc(100vh - 80px);
+  background-image: url(../../../assets/images/home-header.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home-sec1 .banner-title{
+  justify-content: center;
+  height: calc(100vh - 80px);
+  color: var(--secondary-color);
+  text-align: end;
+  align-items: end;
+}
+.home-sec1 .banner-btn{
+  padding: 6px 12px;
+  color: var(--white-color);
+  background-color: var(--primary-color);
+  font-size: 20px;
+  transition: 0.5s;
+}
+.home-sec1 .banner-btn:hover {
+  background-color: var(--secondary-color);
+}
+@media (max-width:767px){
+  .home-sec1{
+    background-image: url(../../../assets/images/home-header-sm.png);
+    height: calc(100vh - 176px);
+  }
+    .home-sec1 .banner-title{
+    height: calc(100vh - 176px);
+  }
+  .home-sec1 .h3{
+    font-size: 16px;
+  }
+  .home-sec1 .h1{
+    font-size: 24px;
+  }
+}
+// sec1 結束
+
+// sec2 開始
+.home-sec2{
+  background-color: #FBF2F2;
+  padding: 80px 0;
+  color: var(--secondary-color);
+}
+.home-sec2 .material-symbols-outlined{
+  font-size: 84px;
+  color: var(--secondary-color);
+  margin-bottom: 24px;
+}
+@media (max-width:992px){
+  .home-sec2 .sec2-items{
+    width: 50%;
+    margin-bottom: 32px;
+  }
+}
+@media (max-width:767px) {
+  .home-sec2 h2{
+    font-size: 24px;
+  }
+  .home-sec2 .sec2-items {
+    width: 100%;
+  }
+  .home-sec2 .sec2-items:last-child {
+    margin-bottom: 0px;
+  }
+}
+// sec2 結束
+
+// sec3 開始
+.home-sec3 h2{
+  color: var(--secondary-color);
+}
+.home-sec3 span{
+    display: block;
+    color: var(--primary-color);
+    font-style: italic;
+  }
+@media (max-width:992px){
+  .home-sec3{
+    margin-bottom: 56px;
+  }
+  .home-sec3 .sec3-items{
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  .home-sec3 .sec3-items img{
+  max-width: 50%;
+  }
+}
+@media (max-width:767px) {
+  .home-sec3 .sec3-items img {
+      max-width: 100%;
+    }
+}
+// sec3 結束
+
+// sec4 開始
+.home-sec4{
+  padding: 80px 0;
+  background-image: url(../../../assets/images/index-bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home-sec4 h2{
+    color: var(--white-color);
+}
+.home-sec4 .sec4-card span{
+  display: block;
+  color: var(--primary-color);
+  background-color: var(--white-color);
+}
+@media (max-width:992px){
+  .home-sec4{
+    background-image: url(../../../assets/images/index-bg-md.png);
+  }
+  .home-sec4 .sec4-items{
+    width: 100%;
+    margin-bottom: 24px;
+  }
+}
+@media (max-width:767px) {
+  .home-sec4 {
+    background-image: url(../../../assets/images/index-bg-sm.png);
+  }
+
+}
+// sec4 結束
+
+// sec5 開始
+.home-sec5 h2{
+  color: var(--secondary-color);
+}
+.home-sec5 .sec5-card{
+  height: 100%;
+  box-shadow: 0 0 5px 1px rgba($color: #000000, $alpha: .2);
+  border-radius: 4px;
+}
+.home-sec5 .content{
+  flex-grow:1;
+  padding: 16px;
+}
+.home-sec5 .content p{
+  margin-bottom: 72px;
+}
+.home-sec5 time{
+  margin-top: auto;
+  color: #707070;
+  font-size: 14px;
+}
+@media (max-width:992px){
+  .home-sec5{
+    margin-bottom: 54px;
+  }
+  .home-sec5 .sec5-items{
+    width: 50%;
+    margin-bottom: 24px;
+  }
+}
+@media (max-width:767px) {
+  .home-sec5 {
+    margin-bottom: 64px;
+  }
+
+  .home-sec5 .sec5-items {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+}
+// sec5 結束
+
+// sec6 開始
+.home-sec6{
+  background-color: #FBF2F2;
+  padding: 80px 0;
+}
+.home-sec6 .container{
+  max-width: 636px;
+  padding: 0;
+}
+.home-sec6 h2{
+  color: var(--secondary-color);
+}
+.home-sec6 p{
+  margin-bottom: 24px;
+  font-size: 20px;
+}
+.home-sec6 input[type='checkbox']{
+  margin-right: 4px;
+}
+
+.home-sec6 .form-items:last-child{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home-sec6 .form-items:last-child input[type='submit']{
+  width: 416px;
+  height: 56px;
+}
+
+@media (max-width:767px) {
+  .home-sec6 .container{
+    max-width:1320px;
+    padding: 0 12px;
+  }
+  .home-sec6 .form-items:last-child {
+    align-items: stretch;
+  }
+  .home-sec6 .form-items:last-child input[type='submit'] {
+    width:100%;
+  }
+}
+// sec6 結束
