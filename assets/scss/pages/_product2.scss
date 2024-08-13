@@ -16,9 +16,13 @@
     border-bottom: 8px solid var(--white-color);
 }
 
-.product2-navibar a:hover {
+.product2-navibar .nav-items:hover {
     border-bottom: 8px solid var(--primary-color);
 }
+.product2-navibar .nav-items.active {
+    border-bottom: 8px solid var(--primary-color);
+}
+
 
 @media (max-width:992px) {
     .product2-navibar .container {
@@ -115,7 +119,11 @@
     border-left: 1px solid #555555;
 }
 
-.product1-sec3 .pageNum-items a:hover {
+.product1-sec3 .pageNum-items:hover {
+    background-color: var(--black-color);
+    color: var(--white-color);
+}
+.product1-sec3 .pageNum-items.active {
     background-color: var(--black-color);
     color: var(--white-color);
 }

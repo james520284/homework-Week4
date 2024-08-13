@@ -2,41 +2,59 @@
 .location-sec1{
     margin-top: 96px;
     margin-bottom: 40px;
-}
-.location-sec1 h2{
-    border-left: 8px solid var(--primary-color);
-    padding-left: 16px;
-}
-.location-sec1 .form-items label{
-    font-size: 24px;
-    margin-right: 16px;
+
+    h2 {
+        border-left: 8px solid var(--primary-color);
+        padding-left: 16px;
+
+        @include phone-max{
+            font-size: 24px;
+        }
+    }
+
+    .form-items label {
+        font-size: 24px;
+        margin-right: 16px;
+
+        @include phone-max{
+            font-size: 16px;
+        }
+    }
+
 }
 // sec1結束
 
 // sec2開始
-.location-sec2 .store-card{
-    border: 1px solid #CED4DA;
-}
-.location-sec2 h4{
-    border-bottom: 1px solid #CED4DA;
-    padding: 8px 24px ;
-}
-.location-sec2 .store-info-list{
-    padding: 16px 24px ;
-}
-.location-sec2 .store-info-items{
-    font-size: 20px;
-    margin-bottom: 8px;
-}
-.location-sec2 .store-info-items span{
-    margin-right: 12px;
-}
-.location-sec2 .card-foot .btn{
-    font-size: 20px;
-    background-color: var(--black-color);
-    color: var(--white-color);
-    padding: 16px 0;
-}
-.location-sec2 .card-foot .btn:hover {
-    background-color: var(--secondary-color);
-}
+.location-sec2{
+
+    .store-card {
+        border: 1px solid #CED4DA;
+    }
+    
+    h4 {
+        border-bottom: 1px solid #CED4DA;
+        padding: 8px 24px;
+    }
+    
+
+    .store-info-items {
+        font-size: 20px;
+        margin-bottom: 8px;
+
+        span {
+                margin-right: 12px;
+            }
+    }
+    .card-foot .btn {
+        font-size: 20px;
+        background-color: var(--black-color);
+        color: var(--white-color);
+        padding: 16px 0;
+
+        &:hover {
+            background-color: var(--secondary-color);
+        }
+    }
+    }
+
+// sec2結束

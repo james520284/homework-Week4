@@ -2,15 +2,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+// helper
+@import '../../assets/scss/helper/variable';
+@import '../../assets/scss/helper/mixin';
+@import '../../assets/scss/helper/utilities';
+
+
 // base 
-@import '../../assets/scss/base/variable.scss';
-@import '../../assets/scss/base/reset.scss';
-@import '../../assets/scss/base/component.scss';
-@import '../../assets/scss/base/utilities.scss';
+@import '../../assets/scss/base/reset';
+@import '../../assets/scss/base/base';
+
 
 // layout
 @import '../../assets/scss/layout/header';
 @import '../../assets/scss/layout/footer.scss';
+
+
+// component
+@import '../../assets/scss/component/component';
+@import '../../assets/scss/component/button';
+
 
 // 首頁 
 @import '../../assets/scss/pages/index.scss';
